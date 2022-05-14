@@ -16,3 +16,4 @@ describe("TS_01_TC02", function () {
         expect(add(1, 2)).equal(3)
     })
 })
+test

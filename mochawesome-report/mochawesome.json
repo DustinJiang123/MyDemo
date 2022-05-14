@@ -1,0 +1,139 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-05-12T15:32:56.999Z",
+    "end": "2022-05-12T15:32:57.006Z",
+    "duration": 7,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "4fa765ca-9eee-4a06-9270-6ce33452a3b1",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e519c765-3c4b-4ae2-a1a0-9ea491b5a720",
+          "title": "TS_01_TC01",
+          "fullFile": "C:\\Users\\Administrator\\IdeaProjects\\MyDemo\\000_Test1\\001.js",
+          "file": "\\000_Test1\\001.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "step 01",
+              "fullTitle": "TS_01_TC01 step 01",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(add(1, 1)).equal(2)",
+              "err": {},
+              "uuid": "7fd0a3ca-a326-4303-8f40-70159eea5422",
+              "parentUUID": "e519c765-3c4b-4ae2-a1a0-9ea491b5a720",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7fd0a3ca-a326-4303-8f40-70159eea5422"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "00248a51-30b5-44c0-8156-f0a4b99697e6",
+          "title": "TS_01_TC02",
+          "fullFile": "C:\\Users\\Administrator\\IdeaProjects\\MyDemo\\000_Test1\\001.js",
+          "file": "\\000_Test1\\001.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "step 01",
+              "fullTitle": "TS_01_TC02 step 01",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(add(1, 2)).equal(3)",
+              "err": {},
+              "uuid": "01858adb-ef31-421a-9e69-4e54237a501c",
+              "parentUUID": "00248a51-30b5-44c0-8156-f0a4b99697e6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "01858adb-ef31-421a-9e69-4e54237a501c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.0.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
